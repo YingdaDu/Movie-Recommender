@@ -11,7 +11,9 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
 
-
+/**
+ * Created by Michelle on 11/12/16.
+ */
 public class Sum {
 
     public static class SumMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
